@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+#top-container {
+min-height:100px;
+height:auto;
+}
+
+.logo{
+height:100px;
+padding:5px;
+text-align:center;
+float:left;
+}
+
+.menu{
+padding:20px;
+float:left;
+border-left: solid 1px red;
+}
+
+.menu button {
+border:0;
+background:none;
+}
+
+.menu ul li {
+line-height:40px !important;
+height:40px;
+text-decoration:none !important;
+}
+
+.menu a{
+color:#333333;
+text-decoration:none;
+}
+
+.menu a:hover{
+color:red;
+text-decoration:overline dotted red;
+}
+
+#slider-container {
+height:800px;
+background-image: url("images/ivegif2.gif");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#slider-about {
+min-height:280px;
+height:auto;
+}
+
+#slider-contact {
+height:520px;
+background-image: url("images/ivewho.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#slider-portfolio {
+height:600px;
+background-image: url("images/ivemain.jpeg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#slider-members {
+height:600px;
+background-image: url("images/ivemembers.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#slider-minive {
+height:600px;
+background-image: url("images/ivemini.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#slider-empty {
+height:5%;
+}
+#content-container {
+min-height:280px;
+height:auto;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+#content-container-2 {
+height:280px;
+height:auto;
+}
+
+.content-box {
+float:left;
+border-left: dotted #c30010;
+border-top: dotted #c30010;
+border-bottom: dotted #c30010;
+overflow:hidden;
+font-size:13px;
+text-align:center;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+
+#footer-container {
+background-color:#c30010;
+position:fixed;
+bottom:0px;
+height:25px;
+width:100%;
+font-size: 11px;
+}
+
+.footer-content{
+text-align:center;
+color:white;
+}
+
+#navbarDog{
+    background-color: #F5EFE6;
+}
+
+#logo{
+    height: 100px;
+}
+.nav-link{
+    font-size: 20px;
+    transition: font-size 0.4s;
+}
+.nav-link:hover{
+    font-size: 25px;
+}
+.header-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
